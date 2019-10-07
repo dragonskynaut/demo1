@@ -37,5 +37,18 @@ project/.mvn/jvm.config
 -Dhttps.proxyHost=proxy.cht.com.tw
 -Dhttps.proxyPort=8080
 
-view=>VCS (git)
+mvnw dependency:tree
 
+jackson: json over http
+
+
+# git
+git config --global http.proxy http://proxy.cht.com.tw:8080
+.git/config
+
+VCS=>version contral setup
+
+dagger2 (google)
+dependency injection
+
+curl
