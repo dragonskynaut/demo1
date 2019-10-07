@@ -51,4 +51,13 @@ VCS=>version contral setup
 dagger2 (google)
 dependency injection
 
-curl
+
+download: adv rest, curl
+
+shift+shift: all find
+ctrl+alt+L: line code
+
+# controller
+@Controller: return default resources/templates/"page" "MVC"
+@RestController: return json
+
