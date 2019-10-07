@@ -58,6 +58,7 @@ download: adv rest, curl
 
 shift+shift: all find
 ctrl+alt+L: line code
+alt+Enter: fix
 
 # controller
 @Controller: return default resources/templates/"page" "MVC"
