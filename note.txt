@@ -45,6 +45,7 @@ jackson: json over http
 # git
 git config --global http.proxy http://proxy.cht.com.tw:8080
 .git/config
+git clone https://github.com/dragonskynaut/demo1.git
 
 VCS=>version contral setup
 
