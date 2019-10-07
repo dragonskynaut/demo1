@@ -1,0 +1,41 @@
+
+webpack
+D3s D3j
+poltly
+npm
+jira
+https://github.com/adobe-fonts/source-code-pro
+https://start.spring.io/
+
+plugin
+spring web (web service)
+thymeleat (html to parameter)
+
+# gradle proxy
+C:\Users\chtti\.gradle\gradle.propeties
+systemProp.http.proxyHost=proxy.cht.com.tw
+systemProp.http.proxyPort=8080
+systemProp.https.proxyHost=proxy.cht.com.tw
+systemProp.https.proxyPort=8080
+
+gradlew dependencies
+
+ant-maven
+   -gradle (auto build)
+   --ivy
+
+gradlew bootrun
+gradlew jar bootjar
+
+# maven proxy
+maven=>importing
+-DproxySet=true -DproxyHost=proxy.cht.com.tw -DproxyPort=8080
+
+project/.mvn/jvm.config
+-Dhttp.proxyHost=proxy.cht.com.tw
+-Dhttp.proxyPort=8080
+-Dhttps.proxyHost=proxy.cht.com.tw
+-Dhttps.proxyPort=8080
+
+view=>VCS (git)
+
