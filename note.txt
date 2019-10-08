@@ -64,8 +64,14 @@ alt+Enter: fix
 @Controller: return default resources/templates/"page" "MVC"
 @RestController: return json
 @Component: springboot start would be setup & run
+@Scope("prototype") be not sigleton
+
 @Service
 @autoWired=>applicationContext=>getBean @config,@Bean
+sigleton wired, may referend same one bean
+@Value("WARNING!!")
+
+
 @Autowired
 @Qualifier("vip") when implement multipule
 
@@ -77,5 +83,14 @@ alt+7: structure
 autowired: access car, and would with component(wheel & engine)
 
 
+confirm to bean: construct, getter & setter
 
 
+#front side
+node.js
+visual studio code
+
+npm config set http-proxy http://proxy.cht.com.tw:8080
+npm config set https-proxy https://proxy.cht.com.tw:8080
+npm update -g
+npm install -g --unsafe-perm node-red
