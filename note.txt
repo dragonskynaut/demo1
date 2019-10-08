@@ -91,6 +91,26 @@ node.js
 visual studio code
 
 npm config set http-proxy http://proxy.cht.com.tw:8080
-npm config set https-proxy https://proxy.cht.com.tw:8080
+npm config set https-proxy http://proxy.cht.com.tw:8080
 npm update -g
 npm install -g --unsafe-perm node-red
+
+D:\intellj\demo1\src\main\resources\static>
+npm init -y
+# webContent package
+npm i webpack --save-dev
+# 新js語法轉換
+npm i @babel/preset-env @babel/preset-react --save-dev
+npm i babel-loader --save-dev
+npm i @babel/core --save-dev
+
+
+
+Wrote to D:\intellj\demo1\src\main\resources\static\package.json:
+git.ignore (node git ignore)
+
+webpack
+status/webpack.config.js
+setup
+# UI
+material component for the web
