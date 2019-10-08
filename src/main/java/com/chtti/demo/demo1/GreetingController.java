@@ -14,4 +14,9 @@ public class GreetingController {
         return "page1";
     }
 
+    @RequestMapping("/wp1")
+    public String webpack1(){
+        return "webpack";
+    }
+
 }

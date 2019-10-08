@@ -90,6 +90,10 @@ confirm to bean: construct, getter & setter
 node.js
 visual studio code
 
+
+npm config set http.proxy http://proxy.cht.com.tw:8080
+npm config set https.proxy http://proxy.cht.com.tw:8080
+
 npm config set http-proxy http://proxy.cht.com.tw:8080
 npm config set https-proxy http://proxy.cht.com.tw:8080
 npm update -g
@@ -104,6 +108,9 @@ npm i @babel/preset-env @babel/preset-react --save-dev
 npm i babel-loader --save-dev
 npm i @babel/core --save-dev
 
+npm run watch (重新打包,有變更時)
+
+jsx,scss=>webpack=>js <=html<=controller
 
 
 Wrote to D:\intellj\demo1\src\main\resources\static\package.json:
