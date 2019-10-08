@@ -63,4 +63,19 @@ alt+Enter: fix
 # controller
 @Controller: return default resources/templates/"page" "MVC"
 @RestController: return json
+@Component: springboot start would be setup & run
+@Service
+@autoWired=>applicationContext=>getBean @config,@Bean
+@Autowired
+@Qualifier("vip") when implement multipule
+
+view
+alt+9: version control
+green: add, blue: modified
+alt+7: structure
+
+autowired: access car, and would with component(wheel & engine)
+
+
+
 
